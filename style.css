@@ -1,0 +1,71 @@
+*{
+    font-family: 'Inter', sans-serif;
+} 
+body{
+    background-color: #f3f5fc;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.entrada-texto{
+    width: 656px;
+    height: 150px;
+    background: none;
+    border: none;
+    display: block;
+    font-size: 32px;
+    margin-left: 180px;
+    margin-top: 120px;
+}
+.alerta{
+    margin-left: 180px;
+    margin-top: 240px;
+}
+.alerta p{
+    display: inline-block;
+}
+.contenedor-botones{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.contenedor-botones input{
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 24px;
+    width: 328px;
+    gap: 8px;
+    border-radius: 24px;
+    color: #0A3871;
+    font-weight: bold;
+}
+.contenedor-botones input:first-child{
+    background-color: #0A3871;
+    color: white;
+}
+.section2{
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 135px 25px;
+    width: 250px;
+    text-align: center;
+}
+.muneco{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contenedor-parrafo h3{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+.contenedor-parrafo p{
+    
+}
