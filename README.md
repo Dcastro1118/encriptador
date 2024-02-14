@@ -1,1 +1,1 @@
-# encriptador
+# Proceso a medio camino
