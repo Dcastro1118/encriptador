@@ -48,12 +48,18 @@ main{
     color: #0A3871;
     font-weight: bold;
     background-color: #D8DFE8;
+    transition: 0.5s;
+}
+.contenedor-botones input:hover{
+    width: 335px;
+    height: 70px;
 }
 .contenedor-botones input:first-child{
     background-color: #0A3871;
     color: #D8DFE8;
 }
 .section2{
+    position: relative;
     background-color: white;
     margin-right: 50px;
     margin-left: 15px;
@@ -78,12 +84,19 @@ main{
     font-size: 12px;
 }
 .boton-copiar{
-    margin: 25px;
+    position: absolute;
+    right: 45px;
+    bottom: 25px;
     width: 250px;
     height: 67px;
     border-radius: 20px;
     background-color: #D8DFE8;
     font-weight: bold;
     color: #0A3871;
+    transition: 0.5s;
+    cursor: pointer;
 }
-
+.boton-copiar:hover{
+    width: 255px;
+    height: 70px;
+}
